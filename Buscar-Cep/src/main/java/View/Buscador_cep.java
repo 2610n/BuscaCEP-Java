@@ -111,10 +111,14 @@ public class Buscador_cep extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Logradouro");
 
+        logradouro.setCaretColor(new java.awt.Color(0, 0, 0));
+        logradouro.setEnabled(false);
+
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Bairro:");
 
+        bairro.setEnabled(false);
         bairro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bairroActionPerformed(evt);
@@ -125,6 +129,7 @@ public class Buscador_cep extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Complemento");
 
+        complemento.setEnabled(false);
         complemento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 complementoActionPerformed(evt);
@@ -135,6 +140,7 @@ public class Buscador_cep extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Localidade");
 
+        localidade.setEnabled(false);
         localidade.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 localidadeActionPerformed(evt);
@@ -145,13 +151,19 @@ public class Buscador_cep extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("IBGE:");
 
+        ibge.setEnabled(false);
+
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("DDD");
 
+        ddd.setEnabled(false);
+
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("UF:");
+
+        uf.setEnabled(false);
 
         jToggleButton1.setBackground(new java.awt.Color(0, 0, 204));
         jToggleButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N

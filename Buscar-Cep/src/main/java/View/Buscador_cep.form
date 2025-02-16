@@ -238,6 +238,12 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="logradouro">
+          <Properties>
+            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
@@ -251,6 +257,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="bairro">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bairroActionPerformed"/>
           </Events>
@@ -267,6 +276,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="complemento">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="complementoActionPerformed"/>
           </Events>
@@ -283,6 +295,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="localidade">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="localidadeActionPerformed"/>
           </Events>
@@ -299,6 +314,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="ibge">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
@@ -312,6 +330,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="ddd">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
@@ -325,6 +346,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="uf">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton1">
           <Properties>

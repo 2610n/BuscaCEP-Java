@@ -4,7 +4,7 @@
  */
 package Controller;
 
-import Model.EnderecoDTo;
+
 
 import java.io.IOException;
 import java.net.URI;
@@ -21,7 +21,7 @@ import org.json.JSONObject;
 public class ProcessarCep {
 
     public JSONObject carregarEndereco(int cep) throws IOException, InterruptedException {
-        EnderecoDTo endereco = null;
+     //  EnderecoDTo endereco = null;
 
         //criando o cliente http
         HttpClient cliente = HttpClient.newHttpClient();
